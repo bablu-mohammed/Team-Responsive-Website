@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Name - Team Members</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('image/background-image.jpg'); /* Replace with your image file path or URL */
+      background-size:cover;
+      background-position:center;
+      background-repeat: no-repeat;
+      color:black; /* Adjust text color for better visibility on the background */
+    }
+  
+    header {
+      color:white;
+      background-color: rgba(51, 51, 51, 0.8); /* Dark overlay for better readability */
+      padding: 20px 0;
+      letter-spacing: 5px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration:double;
+      text-transform: uppercase;
+    }
+  
+  
+    section {
+      padding: 20px;
+      margin: 20px;
+     /* background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+  
+    .team {
+      margin-top: 20px;
+    }
+    .team h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+  
+    .team-members {
+      display: flex;
+      flex-wrap:wrap;
+      justify-content:center;
+    }
+  
+    .member {
+      width: 200px;
+      margin: 15px;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+      border-radius: 8px;
+      text-align: center;
+      transition: transform 0.5s ease-in-out;
+      cursor: pointer;
+      overflow:hidden ;
+    }
+  
+    .member:hover  {
+      transform: scale(1.20);
+    }
+  
+    .member img {
+      width: 250%;
+      max-width: 200px;
+      height:fit-content;
+      border-radius: 100%;   
+      margin-bottom: 30px;
+    }
+  
+    .member p {
+      margin: 0;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      position:fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tech Solutions</h1>
+    <h3 style="color: rgb(232, 234, 227);">Meet Our Team</h3>
+  </header>
+
+  <section class="team">
+    <h2>Leadership Team</h2>
+    <div class="team-members">
+      <div class="member">
+        <img src="image/l1.jpg" alt="Leader 1">
+        <h1>Noah</h1>
+        <h3>Founder/CEO</h3>
+
+      </div>
+  
+      <div class="member">
+        <img src="image/l2.jpg" alt="Leader 2">
+        <h1>Geroge</h1>
+        <h3>COO</h3>
+      </div>
+      <div class="member">
+        <img src="image/l3.jpg" alt="Olivia">
+        <h1>Olivia</h1>
+        <h3>Sales & Marketing</h3>
+      </div>
+      <div class="member">
+        <img src="image/l4.jpg" alt="Leader 4">
+        <h1>Amelia</h1>
+        <h3>Finance & Operation</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="team">
+    <h2>Development Team</h2>
+    <div class="team-members">
+      <div class="member">
+        <img src="image/d1.jpg" alt="Developer 1">
+        <h1>Isla</h1>
+        <h3>Team Lead, SE</h3>
+      </div>
+      <div class="member">
+        <img src="image/d2.jpg" alt="Developer 1">
+        <h1>Lily</h1>
+        <h3>Software Engineer</h3>
+      </div>
+      <div class="member">
+        <img src="image/d3.jpg" alt="Developer 1">
+        <h1>Daisy</h1>
+        <h3>Software Engineer</h3>
+      </div>
+      <div class="member">
+        <img src="image/d4.jpg" alt="Developer 1">
+        <h1>Rosie</h1>
+        <h3>Software Engineer</h3>
+      </div>
+      <div class="member">
+        <img src="image/d5.jpg" alt="Developer 1">
+        <h1>Leo</h1>
+        <h3>Software Engineer</h3>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="team">
+    <h2>Sales and Marketing Team</h2>
+    <div class="team-members">
+      <div class="member">
+        <img src="image/m1.jpg" alt="Salesperso1">
+        <h1>Sofia</h1>
+        <h3>Team Lead</h3>
+      </div>
+      <div class="member">
+        <img src="image/m2.jpg" alt="Salesperson 1">
+        <h1>Thomas</h1>
+        <h3>Sales Officer</h3>
+      </div>
+      <div class="member">
+        <img src="image/m3.jpg" alt="Salesperson 1">
+        <h1>Ivy</h1>
+        <h3>Sales Officer</h3>
+      </div>
+      <div class="member">
+        <img src="image/m4.jpg" alt="Salesperson 1">
+        <h1>Oscar</h1>
+        <h3>Marketing Officer</h3>
+      </div>
+      <div class="member">
+        <img src="image/m5.jpg" alt="Salesperson 1">
+        <h1>Noothan</h1>
+        <h3>Marketing Officer</h3>
+      </div>
+    </div>
+  </section>
+  <footer>
+    &copy; Follow Us
+  </footer>
+
+</body>
